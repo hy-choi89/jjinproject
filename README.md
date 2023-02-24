@@ -10,6 +10,7 @@
 
 ---
 ## 홈 화면
-<img width="900" alt="main" src="https://user-images.githubusercontent.com/121228651/221135181-9af88ad2-8380-4b52-8bd5-3defa0a9b094.png">
+<img width="900" alt="main" src="https://user-images.githubusercontent.com/121228651/221135181-9af88ad2-8380-4b52-8bd5-3defa0a9b094.png">  
 
-## 공지사항 게시판 화면
+## 공지사항 게시판 화면  
+<img width="900" alt="main" src="https://user-images.githubusercontent.com/121228651/221140250-45aef855-fc5b-402e-a885-a4efbbad430d.png">  
