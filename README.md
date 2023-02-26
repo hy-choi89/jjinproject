@@ -3,7 +3,7 @@
 
 - 게시판 CRUD 작업의 전반적인 F/E 업무 수행 (페이지 디자인(HTML5, CSS), JSP, Controller)  
 - 일부 B/E 기능 구현(DAO, Service, Mapper)  
-- 회원 간 쪽지기능   
+- 회원 간 쪽지기능 F/E 업무 수행
 
  
 [우리동네 올림픽으로 이동!](https://http://ourtownolympic.kro.kr/)
