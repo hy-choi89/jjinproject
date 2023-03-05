@@ -62,7 +62,7 @@
 - 제목과 내용을 입력 후 작성 완료를 누르면 글번호, 제목, 내용, 작성시간, 조회수(기본값 0)가 DB에 저장이 되며, 글 등록이 완료 됩니다.
 
 #### 자세히 보기 
-<img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/222940837-a763df8d-c0b7-4f2d-bdff-f739d757906a.png"> 
+<img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/222940837-a763df8d-c0b7-4f2d-bdff-f739d757906a.png">  
 
 - DB에 있는 내용을 모두 보여주며, 해당 페이지로 들어올 경우 조회수를 1 올려줍니다.
 ---
@@ -70,6 +70,10 @@
 ### 쪽지함 화면
 <img width="900" alt="message" src="https://user-images.githubusercontent.com/121228651/221402881-ce72134c-3145-46c9-9004-4116468017f5.png">  
 
+- 상단 로그인 옆 쪽지 아이콘을 클릭 하면 새창으로 받은 쪽지함이 열립니다. 
+- 한 페이지 당 10개의 쪽지를 출력하며, 받은쪽지함에서는 읽은 쪽지는 아래쪽으로 정렬됩니다.  
+  `select * from message where receiver=#{userid} order by reception desc, msg_num desc limit #{displayPost},#{postNum}`
+- 선택삭제를 구현하여 원하는 쪽지만 선택하여 삭제 할 수 있습니다. 
   
 ### 예약하기 화면
 <img width="900" alt="reserve" src="https://user-images.githubusercontent.com/121228651/221403232-1698dfba-0119-4d37-a767-19ec1103ce95.png">  
