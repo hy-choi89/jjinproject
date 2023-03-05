@@ -42,7 +42,7 @@
 ## 화면 설계
 
 ### 홈 화면
-<img width="900" alt="main" src="https://user-images.githubusercontent.com/121228651/221135181-9af88ad2-8380-4b52-8bd5-3defa0a9b094.png">  
+<img width="900" alt="main" src="https://user-images.githubusercontent.com/121228651/222940588-d4ebe390-2227-467b-a59d-e3e4db4114b0.png">  
 
 - 헤더,푸터는 공통으로 모든 페이지 적용했고,중앙 좌측 (공지사항,자유게시판,운동지식공유) 게시판을 탭 형태로 나눴습니다. 
 - 중앙 우측에는 G.X룸 예약할 수 있는 버튼, 이용권을 구매할 수 있는 버튼이며, 버튼을 누를경우 페이지 이동이 됩니다.
@@ -51,13 +51,26 @@
  
   
 ### 공지사항 게시판 화면  
-<img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/221140250-45aef855-fc5b-402e-a885-a4efbbad430d.png">   
+<img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/222940706-e2608797-5ad6-458d-892f-57e0d343cf1d.png">   
 
 - 한 페이지 당 10개의 게시물을 출력하고, 한번에 보여지는 페이지의 갯수는 5개입니다.
 - 5개 이상의 페이지가 생성되면 [이전], [다음] 으로 이동할 수 있습니다.
-  
+---
+
+## 글쓰기 (관리자 아이디로 로그인 시 사용 가능)
+<img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/222940739-11d0449f-c1e0-438f-848c-89ecf2ca3428.png"> 
+
+- 제목과 내용을 입력 후 작성 완료를 누르면 글번호, 제목, 내용, 작성시간, 조회수(기본값 0)가 DB에 저장이 되며, 글 등록이 완료 됩니다.
+
+## 자세히 보기 
+<img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/222940837-a763df8d-c0b7-4f2d-bdff-f739d757906a.png"> 
+
+- DB에 있는 내용을 모두 보여주며, 해당 페이지로 들어올 경우 조회수를 1 올려줍니다.
+---
+
 ### 쪽지함 화면
 <img width="900" alt="message" src="https://user-images.githubusercontent.com/121228651/221402881-ce72134c-3145-46c9-9004-4116468017f5.png">  
+
   
 ### 예약하기 화면
 <img width="900" alt="reserve" src="https://user-images.githubusercontent.com/121228651/221403232-1698dfba-0119-4d37-a767-19ec1103ce95.png">  
