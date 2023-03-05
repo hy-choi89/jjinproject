@@ -43,10 +43,18 @@
 
 ### 홈 화면
 <img width="900" alt="main" src="https://user-images.githubusercontent.com/121228651/221135181-9af88ad2-8380-4b52-8bd5-3defa0a9b094.png">  
+
+- 헤더,푸터는 공통으로 모든 페이지 적용했고,중앙 좌측 (공지사항,자유게시판,운동지식공유) 게시판을 탭 형태로 나눴습니다. 
+- 중앙 우측에는 G.X룸 예약할 수 있는 버튼, 이용권을 구매할 수 있는 버튼이며, 버튼을 누를경우 페이지 이동이 됩니다.
+- 아래쪽에 이미지들은 G.X의 운동종류 이미지로 Swiper.js를 사용하였습니다.
+---
  
   
 ### 공지사항 게시판 화면  
 <img width="900" alt="notice" src="https://user-images.githubusercontent.com/121228651/221140250-45aef855-fc5b-402e-a885-a4efbbad430d.png">   
+
+- 한 페이지 당 10개의 게시물을 출력하고, 한번에 보여지는 페이지의 갯수는 5개입니다.
+- 5개 이상의 페이지가 생성되면 [이전], [다음] 으로 이동할 수 있습니다.
   
 ### 쪽지함 화면
 <img width="900" alt="message" src="https://user-images.githubusercontent.com/121228651/221402881-ce72134c-3145-46c9-9004-4116468017f5.png">  
