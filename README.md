@@ -70,7 +70,7 @@
 ### 쪽지함 화면
 <img width="900" alt="message" src="https://user-images.githubusercontent.com/121228651/221402881-ce72134c-3145-46c9-9004-4116468017f5.png">  
 
-- 상단 로그인 옆 쪽지 아이콘을 클릭 하면 새창으로 받은 쪽지함이 열립니다. 
+- 상단 쪽지 아이콘을 클릭 하면 새창으로 받은 쪽지함이 열립니다. 
 - 한 페이지 당 10개의 쪽지를 출력하며, 받은쪽지함에서는 읽은 쪽지는 아래쪽으로 정렬됩니다.  
   `select * from message where receiver=#{userid} order by reception desc, msg_num desc limit #{displayPost},#{postNum}`
 - 선택삭제를 구현하여 원하는 쪽지만 선택하여 삭제 할 수 있습니다. 
